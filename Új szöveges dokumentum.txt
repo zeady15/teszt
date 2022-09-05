@@ -1,0 +1,14 @@
+git config --global user.name "zeady15"
+git config --global user.email "zeteny156@gmail.com"
+
+echo "# teszt" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/zeady15/teszt.git
+git push -u origin main
+
+git add .
+git commit -m "Description"
+git push -u origin main
